@@ -1,0 +1,26 @@
+SUMMARY:
+	ROM0: 3172 bytes used / 13212 free
+
+ROM0 bank #0:
+	EMPTY: $0000-$00ff ($0100 bytes)
+	SECTION: $0100-$014f ($0050 bytes) ["Header"]
+	SECTION: $0150-$01d3 ($0084 bytes) ["main"]
+	         $0152 = EntryPoint
+	         $0152 = EntryPoint.WaitVBlank
+	         $0172 = ClearVRAM
+	         $0178 = ClearVRAM.ClearVram
+	         $0180 = ClearOAM
+	         $0186 = ClearOAM.ClearOam
+	         $01aa = main_loop
+	         $01b3 = Memcopy
+	         $01be = Memcopy.VramCopy
+	         $01c1 = Memcopy.loop
+	         $01d0 = Memcopy.end
+	SECTION: $01d4-$0963 ($0790 bytes) ["TILES"]
+	         $01d4 = picture_tiles
+	         $0964 = picture_tilesEnd
+	SECTION: $0964-$0d63 ($0400 bytes) ["MAP"]
+	         $0964 = picture_map
+	         $0d64 = picture_mapEnd
+	EMPTY: $0d64-$3fff ($329c bytes)
+	TOTAL EMPTY: $339c bytes
