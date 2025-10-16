@@ -1,5 +1,5 @@
 set PROJECT_BASE=.\
-set RGBDS_PATH=%PROJECT_BASE%\Compile\rgbds-0.8.0-win64
+set RGBDS_PATH=%PROJECT_BASE%\Compile\rgbds-win64
 set PATH=%RGBDS_PATH%
 set ROM_NAME=codeVSart
 

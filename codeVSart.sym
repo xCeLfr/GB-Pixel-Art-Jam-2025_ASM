@@ -11,6 +11,6 @@
 00:01c1 Memcopy.loop
 00:01d0 Memcopy.end
 00:01d4 picture_tiles
-00:0964 picture_tilesEnd
 00:0964 picture_map
+00:0964 picture_tilesEnd
 00:0d64 picture_mapEnd
